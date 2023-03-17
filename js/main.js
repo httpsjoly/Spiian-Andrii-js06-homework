@@ -13,7 +13,7 @@ if (prompt ('Сколько будет 2+2?', "") == '4') {
     resultAll = "Not correct";
     alert (resultAll);
   }
-  if (confirm ('Сколько будет 5 / 0?', "") == false) {
+  if (prompt ('Сколько будет 5 / 0?', "0") == false) {
     result += 10;
   } else {
     resultAll = "Not correct"
